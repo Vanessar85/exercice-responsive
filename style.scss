@@ -1,0 +1,70 @@
+body{
+    
+
+    #container{
+        width: 80%;
+        margin: auto;
+        height: 15vh;
+        display: flex;
+        justify-content: space-between;
+        @media (max-width: 375px) {
+            flex-direction: column;
+            height: 100vh;
+        }
+        @media (max-width: 992px){
+            height: 50vh;
+        }
+        @media (max-width: 1200px){
+            height: 50vh;
+        }
+        
+       
+        #blue{
+            width: 18%;
+            background-color: blue;
+            @media (max-width: 375px) {
+                width: 100%;
+                height: 15vh;
+            }
+            @media (min-width: 376px) and (max-width: 768px) {
+                background-color: rgb(20, 196, 228);
+            }              
+
+        }
+        #green{
+            width: 18%;
+            background-color: green;
+            @media (max-width: 375px) {
+                width: 100%;
+                height: 15vh;
+            }
+            @media (min-width: 376px) and (max-width: 768px) {
+                background-color: rgb(226, 14, 60);
+            }
+
+        }
+        #yellow{
+            width: 18%;
+            background-color: yellow;
+            @media (max-width: 375px) {
+                width: 100%;
+                height: 15vh;
+            }
+            @media (min-width: 376px) and (max-width: 768px) {
+                background-color: rgb(221, 24, 139);
+            }
+
+        }
+        #orange{
+            width: 18%;
+            background-color: orange;
+            @media (max-width: 375px) {
+                width: 100%;
+                height: 15vh;
+            }
+            @media (min-width: 376px) and (max-width: 768px) {
+                background-color: rgb(127, 218, 23);
+            }
+        }
+    }
+}
